@@ -12,7 +12,7 @@ This project involves the analysis of Uber rideshare data using Python and panda
 import pandas as pd
 
 # Load the dataset
-uber = pd.read_csv(r"C:\Users\gupta\Desktop\uber_project\rideshare_kaggle.csv")
+uber = pd.read_csv(r"rideshare_kaggle.csv")
 
 # Display basic information about the dataset
 print(uber.shape)
